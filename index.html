@@ -2,15 +2,15 @@
 <html Lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 <title>COMP 3025-Lesson 4 </title>
 <!-- Css Section -->
 <link rel="stylesheet" href="./Content/game.css">
 </head>
 <body>
-    <div>
-        <canvas id="canvas" width="320" height="240"></canvas>
+    <div id="gameContainer">
+        <canvas id="canvas" width="320" height="480"></canvas>
     </div>
     <!-- Scripts Section -->
 <script src=".\Scripts\lib\EaselJS\lib\easeljs-0.8.2.min.js"></script>
@@ -19,6 +19,8 @@
 <script src=".\Scripts\lib\PreloadJS\lib\preloadjs-0.6.2.min.js"></script>
 
     <!-- Game Scripts -->
+    <script src="./Scripts/objects/label.js"></script>
+
     <script src="./Scripts/core/game.js"></script>
 </body>
 </html>

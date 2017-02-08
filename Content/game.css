@@ -1,1 +1,9 @@
 /* Custom css goes here */
+
+#canvas{
+    border: 1px dotted black;
+    margin: 0  33%;
+}
+#gameContainer{
+    width: 100vw;
+}
